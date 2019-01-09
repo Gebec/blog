@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  padding: 1rem;
+
+  & > *:first-child {
+    flex-grow: 1;
+  }
+}
+
+.current {
+  color: green;
+}
