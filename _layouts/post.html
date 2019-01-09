@@ -1,13 +1,6 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/post.css">
-
-    {% feed_meta %}
-    {% seo %}
-  </head>
+  {% include head.html styles="post" %}
   <body>
     {% include header.html %}
     <div class="content">

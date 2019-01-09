@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+
+  &:link {
+    color: black;
+  }
+
+  &:visited {
+    color: lightseagreen;
+  }
+
+  &:hover {
+    color: blue;
+  }
+
+  &:active {
+    color: blue;
+  }
+}
