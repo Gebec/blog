@@ -1,3 +1,19 @@
-<footer>
-  Some links(like to this repo, codepen?,...)
+<footer class="footer">
+  <div class="footer__main">
+    <div>
+      Links
+    </div>
+
+    <div>
+      Repos (codepen, github)
+    </div>
+
+    <div>
+      Connect (email, rss)
+    </div>
+  </div>
+
+  <div class="footer__copy">
+      &copy; {{ 'now' | date: "%Y" }} {{ 'created with' | upcase }} <span class="text--c-red">&#10084;</span> {{ 'by Gebec and Jekyll' | upcase }}
+  </div>
 </footer>
