@@ -3,9 +3,8 @@ layout: default
 title: home
 ---
 
-<div>
-  {% for post in site.posts %}
-    <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-    <p>{{ post.excerpt }}</p>
+<div class="posts_wrapper">
+  {% for data in site.posts %}
+    {% include post_card.html %}
   {% endfor %}
 </div>

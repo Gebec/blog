@@ -1,0 +1,15 @@
+<a href="{{ data.url }}">
+  <div class="post_card">
+    <h1 class="h1">
+      {{ data.title }}
+    </h1>
+
+    <div class="text--s-s text--c-darkerGrey">
+      Published on {{ data.date | date_to_string }}
+    </div>
+
+    <p class="text--s-l text--c-base">
+      {{ data.excerpt }}
+    </p>
+  </div>
+</a>

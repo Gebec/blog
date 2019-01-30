@@ -1,0 +1,22 @@
+.posts_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+
+  @media (min-width: 800px) {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  & > * {
+    width: 100%;
+
+    @media (min-width: 800px) {
+      width: 50%;
+      margin: 1rem;
+    }
+
+    @media (min-width: 1200px) {
+      width: 33%;
+    }
+  }
+}

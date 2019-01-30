@@ -1,0 +1,10 @@
+.post_card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  @media (min-width: 800px) {
+    box-shadow: .25rem .25rem .75rem 0 rgba(0,0,0,0.75);
+  }
+
+  padding: 1rem;
+}

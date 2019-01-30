@@ -1,11 +1,15 @@
 <!doctype html>
 <html>
-  {% include head.html styles="index" %}
+  <head>
+    {% include head.html styles="index" %}
+  </head>
+
   <body>
     {% include header.html %}
-    <div class="content">
+
+    <main class="content">
       {{ content }}
-    </div>
+    </main>
     {% include footer.html %}
   </body>
 </html>

@@ -1,0 +1,37 @@
+.text {
+  &--s {
+    &-s {
+      font-size: .75rem;
+    }
+
+    &-m {
+      font-size: .85rem;
+    }
+
+    &-l {
+      font-size: 1rem;
+    }
+
+    &-xl {
+      font-size: 1.25rem;
+    }
+  }
+
+  &--c {
+    &-base {
+      color: dimgray;
+    }
+
+    &-white {
+      color: white;
+    }
+
+    &-black {
+      color: black;
+    }
+
+    &-darkerGrey {
+      color: gray;
+    }
+  }
+}
