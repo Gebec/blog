@@ -1,37 +1,41 @@
 .text {
   &--s {
     &-s {
-      font-size: .75rem;
+      font-size: map-get($font-sizes, s);
     }
 
     &-m {
-      font-size: .85rem;
+      font-size: map-get($font-sizes, m);
     }
 
     &-l {
-      font-size: 1rem;
+      font-size: map-get($font-sizes, l);
     }
 
     &-xl {
-      font-size: 1.25rem;
+      font-size: map-get($font-sizes, xl);
     }
   }
 
   &--c {
     &-base {
-      color: dimgray;
+      color: map-get($colors, grey);
     }
 
     &-white {
-      color: white;
+      color: map-get($colors, white);
     }
 
     &-black {
-      color: black;
+      color: map-get($colors, black);
     }
 
     &-darkerGrey {
-      color: gray;
+      color: map-get($colors, darkerGrey);
+    }
+
+    &-red {
+      color: map-get($colors, pink);
     }
   }
 }
