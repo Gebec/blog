@@ -1,6 +1,6 @@
 title: Gebec's Blog
 email: gebec.m@gmail.com
-description:
+description: ""
 baseurl: ""
 url: ""
 github_username: gebec
@@ -8,3 +8,5 @@ github_username: gebec
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+paginate: 5
