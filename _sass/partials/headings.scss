@@ -1,0 +1,29 @@
+.h1 {
+  font-size: map-get($headings-sizes, h1);
+  line-height: map-get($headings-line-heights, h1);
+}
+
+.h2 {
+  font-size: map-get($headings-sizes, h2);
+  line-height: map-get($headings-line-heights, h2);
+}
+
+.h3 {
+  font-size: map-get($headings-sizes, h3);
+  line-height: map-get($headings-line-heights, h3);
+}
+
+.h4 {
+  font-size: map-get($headings-sizes, h4);
+  line-height: map-get($headings-line-heights, h4);
+}
+
+.h5 {
+  font-size: map-get($headings-sizes, h5);
+  line-height: map-get($headings-line-heights, h5);
+};
+
+.h6 {
+  font-size: map-get($headings-sizes, h6);
+  line-height: map-get($headings-line-heights, h6);
+}

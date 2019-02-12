@@ -12,4 +12,22 @@ $font-sizes: (
   m: .85rem,
   l: 1rem,
   xl: 1.25rem,
-)
+);
+
+$headings-sizes: (
+  h1: 2.5rem,
+  h2: 2rem,
+  h3: 1.5rem,
+  h4: 1.25rem,
+  h5: 1rem,
+  h6: .75rem,
+);
+
+$headings-line-heights: (
+  h1: 3rem,
+  h2: 2.5rem,
+  h3: 1.825rem,
+  h4: 1.5rem,
+  h5: 1.2rem,
+  h6: .875rem,
+);
