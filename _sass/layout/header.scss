@@ -15,5 +15,5 @@
 }
 
 .current {
-  color: green;
+  color: map-get($colors, green);
 }

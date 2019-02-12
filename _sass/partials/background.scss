@@ -1,5 +1,13 @@
 .bg {
   &--black {
-    background-color: black;
+    background-color: map-get($colors, black);
+  }
+
+  &--grey {
+    background-color: map-get($colors, grey);
+  }
+
+  &--white {
+    background-color: map-get($colors, white);
   }
 }

@@ -2,18 +2,18 @@ a {
   text-decoration: none;
 
   &:link {
-    color: black;
+    color: map-get($colors, black);
   }
 
   &:visited {
-    color: lightseagreen;
+    color: map-get($colors, green);
   }
 
   &:hover {
-    color: blue;
+    color: map-get($colors, blue);
   }
 
   &:active {
-    color: blue;
+    color: map-get($colors, blue);
   }
 }
