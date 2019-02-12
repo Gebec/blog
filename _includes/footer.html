@@ -1,19 +1,24 @@
-<footer class="footer">
-  <div class="footer__main">
-    <div>
-      Links
-    </div>
+<footer class="footer content">
+  <div class="content bg--black">
+    <div class="content__wrapper">
+        <div class="footer__main text--c-white">
+          <div>
+            <h3 class="h3">Links</h2>
+          </div>
 
-    <div>
-      Repos (codepen, github)
-    </div>
+          <div>
+            <h3 class="h3">Repos (codepen, github)</h2>
+          </div>
 
-    <div>
-      Connect (email, rss)
+          <div>
+            <h3 class="h3">Connect (email, rss)</h2>
+          </div>
+        </div>
     </div>
   </div>
 
-  <div class="footer__copy">
-      &copy; {{ 'now' | date: "%Y" }} {{ 'created with' | upcase }} <span class="text--c-red">&#10084;</span> {{ 'by Gebec and Jekyll' | upcase }}
+
+  <div class="footer__copy text--c-black bg--grey">
+    &copy; {{ 'now' | date: "%Y" }} {{ 'created with' | upcase }} <span class="text--c-red">&#10084;</span> {{ 'by Gebec and Jekyll' | upcase }}
   </div>
 </footer>

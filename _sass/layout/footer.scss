@@ -1,0 +1,16 @@
+.footer {
+  &__main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+
+    & > * {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  &__copy {
+    text-align: center;
+  }
+}
