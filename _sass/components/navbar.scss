@@ -1,5 +1,7 @@
 .nav {
   text-align: center;
+  border: 1px solid map-get($colors, black);
+  padding: 1rem;
 
   & > * {
     display: inline;
