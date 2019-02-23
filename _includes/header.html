@@ -1,12 +1,7 @@
-<header class="header">
-  <div class="content text text--c-white bg--black">
-    <div class="header__intro">
-      <h1 class="h1">Gebec's blog</h1>
-      <div>Just tell them something about me</div>
+<header class="content">
+  <div class="header" style="background-image: url({{ header_image_path | asset_path }})">
+    <div class="header__nav">
+      {% include navbar.html %}
     </div>
-  </div>
-
-  <div class="content header__nav">
-    {% include navbar.html %}
   </div>
 </header>

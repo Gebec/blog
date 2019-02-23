@@ -1,17 +1,12 @@
 .header {
-  padding: 1rem 0;
-
-  &__intro {
     text-align: center;
 
-    & > * {
-      padding: 1rem 0;
-    }
-  }
+    background-size: cover;
+    background-position: center 37.5%;
+    background-repeat: no-repeat;
 
-  &__nav {
-
-  }
+    height: 50vh;
+    min-height: 300px;
 }
 
 .current {
