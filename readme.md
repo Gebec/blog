@@ -1,3 +1,3 @@
-Run localy
+Run locally
 ```
 bundle exec jekyll serve
