@@ -35,7 +35,14 @@
     }
 
     &-red {
-      color: map-get($colors, pink);
+      color: map-get($colors, red);
+    }
+  }
+
+  &--u {
+    &-red {
+      text-decoration: underline;
+      text-decoration-color: map-get($colors, red);
     }
   }
 }

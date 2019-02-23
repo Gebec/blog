@@ -1,7 +1,8 @@
 $colors: (
   black: #333,
   white: #EEE,
-  pink: #FF0080,
+  red: #E13D3D,
+  darkerRed: #D03B39,
   blue: #1AC6FF,
   grey: dimgray,
   darkerGrey: gray,
@@ -31,3 +32,11 @@ $headings-line-heights: (
   h5: 1.2rem,
   h6: .875rem,
 );
+
+$shadows: (
+  base: 0 .5rem 2.5rem -.5rem rgba(0, 0, 0, 0.2),
+);
+
+$gap: (
+  m: 2rem,
+)

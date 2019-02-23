@@ -1,0 +1,11 @@
+.gap {
+  &--m {
+    margin-left: -(map-get($gap, m));
+    margin-right: -(map-get($gap, m));
+
+    & > * {
+      padding-left: map-get($gap, m);
+      padding-right: map-get($gap, m);
+    }
+  }
+}
